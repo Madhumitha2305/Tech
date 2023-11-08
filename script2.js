@@ -6,7 +6,7 @@ let provider;
             provider = new ethers.providers.Web3Provider(window.ethereum);
             signer = provider.getSigner();
             const network = await provider.getNetwork();
-            const contractAddress = "0x27c9cCF9824f1930363e75c944FBDA58Be3F8818"; // Replace with your deployed contract address
+            const contractAddress = "0x27c9cCF9824f1930363e75c944FBDA58Be3F8818"; 
             const abi = [
                 [
                     {
