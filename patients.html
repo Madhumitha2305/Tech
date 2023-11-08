@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Healthcare App</title>
+</head>
+
+<body>
+   <div class="menu-bar">
+            <a href="index.html" class="menu-item">Home</a>
+           <a href="patients.html" class="menu-item">For Patients</a>
+           <a href="admin.html" class="menu-item" >For Admin</a>
+    </div>
+    <div class="content">
+
+            <h2> View Patient Details</h2>
+            <input type="number" id="patientId" placeholder="Enter patient ID" ></input>
+        <button onclick="viewPatientRecord()">View</button>
+
+    </div>
+    <div class="content">
+            <h2>Connect to MetaMask Wallet</h2>
+        <button onclick="connectWallet()">Connect</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.0.6/dist/ethers.min.js"></script>
+    <script src="script2.js"></script>
+
+</body>
+
+</html>
